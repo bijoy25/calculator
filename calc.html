@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            color: black;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+        .card{
+            max-width: 350px;
+            margin: 2rem auto;
+            text-align: center;
+            box-shadow: 1px 6px 10px 1px gray;
+            padding: 5px 1px;
+            font-size: 0px;
+            padding-right: 1px;
+
+        }
+        .calc-head input {
+            width: 350px;
+            height: 70px;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 0 5px;
+            text-align: right;
+            padding-right: 3px;
+        }
+        .btn{
+            width: 87px;
+            height: 70px;
+            background-color: rgb(12, 11, 11);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        .btn:hover{
+            background-color: rgb(20, 34, 73);
+        }
+        .btn-style{
+            background-color: #5F4886;
+        }
+        .btn-style1{
+            background-color: rgb(245, 245, 25);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Calculator</h1>
+        <div class="calc-head">
+            <input type="text" name="" id="result">
+        </div>
+        <div class="btn-item">
+            <input type="button" name="" value="C" class="btn" id="">
+            <input type="button" name="" value="+/-" class="btn" id="">
+            <input type="button" name="" value="%" class="btn" id="">
+            <input type="button" name="" value="/" class="btn btn-style" id="">
+        </div>
+        <div class="btn-item">
+            <input type="button" name="" value="7" class="btn" id="">
+            <input type="button" name="" value="8" class="btn" id="">
+            <input type="button" name="" value="9" class="btn" id="">
+            <input type="button" name="" value="x" class="btn btn-style" id="">
+        </div>
+        <div class="btn-item">
+            <input type="button" name="" value="4" class="btn" id="">
+            <input type="button" name="" value="5" class="btn" id="">
+            <input type="button" name="" value="6" class="btn" id="">
+            <input type="button" name="" value="-" class="btn btn-style" id="">
+        </div>
+        <div class="btn-item">
+            <input type="button" name="" value="1" class="btn" id="">
+            <input type="button" name="" value="2" class="btn" id="">
+            <input type="button" name="" value="3" class="btn" id="">
+            <input type="button" name="" value="+" class="btn btn-style" id="">
+        </div>
+        <div class="btn-item">
+            <input type="button" name="" value="0" class="btn" id="">
+            <input type="button" name="" value="." class="btn" id="">
+            <input type="button" name="" value="DEL" class="btn" id="">
+            <input type="button" name="" value="=" class="btn btn-style1" id="">
+        </div>
+    </div>
+    
+</body>
+</html>
